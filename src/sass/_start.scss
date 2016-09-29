@@ -34,6 +34,7 @@ max-width: 1200px;
   height: 277px;
   background-color: white;
   position: relative;
+  padding: 0 5px;
   &-inner{
     height: 150px;
     width: 100%;
@@ -44,6 +45,13 @@ max-width: 1200px;
   }
   &__text{
     text-align: center;
+    display: table;
+    min-height: 120px;
+    width: 100%;
+    p{
+      display: table-cell;
+      vertical-align: middle;
+    }
   }
   &__img{
 
